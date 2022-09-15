@@ -159,29 +159,3 @@
     ]
 }
 ==============================================================================
-4
-{
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "VisualEditor0",
-            "Effect": "Allow",
-            "Action": [
-                "iam:CreatePolicy",
-                "iam:ListPolicies",
-                "iam:GetPolicyVersion",
-                "iam:GetPolicy",
-                "iam:ListPolicyVersions",
-                "iam:ListAttachedUserPolicies",
-                "iam:ListEntitiesForPolicy",
-                "iam:DeleteUserPolicy",
-                "iam:DeletePolicy",
-                "iam:ListUserPolicies",
-                "iam:CreatePolicyVersion",
-                "iam:DeletePolicyVersion"
-            ],
-            "Resource": "*"
-        }
-    ]
-}
-================================================================
